@@ -1,4 +1,4 @@
-const int ledPin = 15;  //          Selecciona el (GPIO15) de la RPY Pico donde se enviara el pulso de encendido, esto es solo
+const int ledPin = 8;  //           Selecciona el (GPIO15) de la RPY Pico donde se enviara el pulso de encendido, esto es solo
 //                                  una variable constante que contiene el (GPIO) que se usara.
 void setup() {
   pinMode(ledPin, OUTPUT);  //    Se coloca pin mode a modo de seleccion de pin en variable  y se pone en estado  de  salida
