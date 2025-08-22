@@ -6,12 +6,12 @@ void setup() {
 
 void loop() {
   digitalWrite(ledPin, HIGH);  // Enciende el led escribiendo los cambios sobre el (GPIO) seleccionado y colocandolo en alto
-  delay(1000);                 //                Espera 1 segundo para hacer la siguiente instruccion.
+  delay(5000);                 //                Espera 1 segundo para hacer la siguiente instruccion.
   digitalWrite(ledPin, LOW);   //  Apaga el led
-  delay(1000);                 //                Espera 1 segundo para hacer la siguiente instruccion.
+  delay(5000);                 //                Espera 1 segundo para hacer la siguiente instruccion.
 }
 
-// Documentación:
+// Documentación:q
 //
 // Para poder encender y apagar un led usando Arduino es necesario establecer primero el número de pin que  se va a utilizar,
 // esto lo que indica es que pin físico se usara a modo de puerto o conexión, para ello se usa  una variable  común  de tipo

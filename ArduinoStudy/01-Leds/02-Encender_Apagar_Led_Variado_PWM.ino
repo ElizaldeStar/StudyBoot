@@ -1,12 +1,10 @@
 //----------------------------------------------------------------------------------------------------------------------------------//
 // Encendido y apagado de diodo led por pulso PWM.
-
 const int ledPin = 8; // Define la variable constante entera para el número de pin seleccionado a usar.
 
 void setup() {
   pinMode(ledPin, OUTPUT); // Define la configuración del pin mediante el contenedor del pin y el estado I/O
 }
-
 
 // Dentro del bucle se crea un ciclo de tipo for con un contador que varia el PWM
 void loop() {
